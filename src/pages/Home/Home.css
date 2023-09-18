@@ -1,0 +1,47 @@
+.home-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    padding: 40px;
+    margin: 0;
+    position: relative;
+}
+
+.home-container::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    /* Adjust the 0.5 value to increase or decrease the fade effect */
+    z-index: 0;
+}
+
+.background-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -1;
+}
+
+.content {
+    position: relative;
+    z-index: 1;
+    color: white;
+}
+
+.content h1 {
+    font-size: 5em;
+}
+
+.content p {
+    font-size: 2em;
+}

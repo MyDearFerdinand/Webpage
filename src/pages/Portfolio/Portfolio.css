@@ -1,0 +1,19 @@
+.portfolio-container {
+    margin-top: 20px;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.portfolio-item {
+    border: 1px solid #e0e0e0;
+    padding: 15px;
+    margin-bottom: 15px;
+}
+
+.portfolio-item h2 {
+    margin-bottom: 10px;
+}
+
+.portfolio-item p {
+    margin-bottom: 10px;
+}
