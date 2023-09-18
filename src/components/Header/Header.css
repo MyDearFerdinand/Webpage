@@ -1,0 +1,30 @@
+header {
+    background-color: #282c34;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    /* Adjust as necessary */
+    z-index: 1000;
+    /* High z-index to keep it above other elements */
+}
+
+nav {
+    display: flex;
+    gap: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+nav a:hover {
+    border-bottom: 2px solid white;
+}
