@@ -4,7 +4,6 @@ import './About.css';
 
 function About() {
   return (
-    <div className="wrapper">
     <section id="about" className="about-container">
       <h2>About Me</h2>
       <p>
@@ -15,7 +14,6 @@ function About() {
         My Resume
       </a>
     </section>
-    </div>
   );
 }
 

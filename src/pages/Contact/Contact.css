@@ -1,8 +1,10 @@
 .contact-container {
-    min-height: 760px;
+    min-height: 765px;
     background-color: #1f4363;
     padding-top: 75px;
     color: #f0fbf9;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .contact-form {

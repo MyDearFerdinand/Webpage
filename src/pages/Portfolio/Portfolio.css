@@ -1,5 +1,7 @@
 .portfolio-container {
     padding-top: 75px;
+    padding-left: 80px;
+    padding-right: 80px;
     box-sizing: border-box;
 }
 

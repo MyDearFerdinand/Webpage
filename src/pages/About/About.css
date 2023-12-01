@@ -6,6 +6,8 @@
     /* background-color: #f0fbf9; */
     align-content: center;
     flex-wrap: wrap;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .about-container h2 {
