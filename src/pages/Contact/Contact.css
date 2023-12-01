@@ -1,8 +1,12 @@
 .contact-container {
-    padding: 20px;
+    min-height: 760px;
+    background-color: #1f4363;
+    padding-top: 75px;
+    color: #f0fbf9;
 }
 
 .contact-form {
+    position: relative;
     max-width: 500px;
     margin: 0 auto;
 }
@@ -31,16 +35,45 @@
 }
 
 button {
-    display: inline-block;
+    margin: auto;
+    display: flex;
     padding: 10px 20px;
     border: none;
-    border-radius: 5px;
-    background-color: #007bff;
+    border-radius: 20px;
+    background-color: #179ec8;
     color: #fff;
     font-size: 16px;
     cursor: pointer;
 }
 
 button:hover {
-    background-color: #0056b3;
+    background-color: #1f4363;
+}
+
+h2 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #f0fbf9;
+    z-index: 10;
+}
+
+.contact-img {
+    margin: auto;
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.socials {
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contact-container a {
+    padding: 1rem;
+    text-decoration: none;
+    color: #f0fbf9;
 }

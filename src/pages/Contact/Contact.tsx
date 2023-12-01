@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './Contact.css';
+import SpinningCube from '../../components/SpinningCube/SpinningCube';
 
 function Contact() {
   const [formData, setFormData] = useState({
@@ -16,13 +17,19 @@ function Contact() {
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    // Add functionality to handle form submission
     console.log(formData);
   };
 
   return (
     <section id="contact" className="contact-container">
-      <h2>Contact Me</h2>
+      
+      <a href="#home"><img className="contact-img" src={'logo192.png'} alt={'MyDearFerdinand'} /></a> 
+      <h2>Let's stay in touch!</h2>
+      <div className="socials">
+      <a href="https://www.linkedin.com/in/vladyslav-maidaniuk-32b6451a8/">My LinkedIn</a>
+      <a href="https://www.instagram.com/mydearferdinand/">My Instagram</a> 
+      <a href="https://www.facebook.com/vladyslav.maidaniuk/">My Facebook</a>
+      <a href="https://t.me/DearFerdinand">My Telegram</a></div>
       <form onSubmit={handleSubmit} className="contact-form">
         <div className="form-group">
           <label htmlFor="name">Name</label>

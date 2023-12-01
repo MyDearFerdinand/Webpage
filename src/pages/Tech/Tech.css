@@ -1,0 +1,22 @@
+.tech-container {
+    background-color: #f0fbf9;
+    padding-top: 75px;
+    min-height: 860px;
+    text-align: center;
+    background-color: #f0fbf9;
+    /* Change background color as per your preference */
+}
+
+.tech-container h2 {
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #333;
+    position: relative;
+    z-index: 100;
+}
+
+.technologies-grid {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
