@@ -1,11 +1,10 @@
 import React from 'react';
-import './PortfolioItem.css'; // Add your styles here
+import './PortfolioItem.css';
 
 interface PortfolioItemProps {
   title: string;
   description: string;
   link?: string;
-  // technologies: string[];
   imageUrl?: string;
 }
 

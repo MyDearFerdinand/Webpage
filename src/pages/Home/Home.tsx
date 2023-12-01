@@ -1,9 +1,11 @@
 import React from 'react';
-import './Home.css'; // Add your styles here
+import './Home.css';
+import Header from '../../components/Header/Header';
 
 const Home: React.FC = () => {
   return (
     <div id="home" className="home-container">
+      <Header />
       <video 
         autoPlay 
         loop 

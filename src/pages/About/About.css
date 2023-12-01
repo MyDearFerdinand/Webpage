@@ -1,14 +1,19 @@
 .about-container {
-    padding: 60px 20px;
+    min-height: 920px;
+    display: flex;
+    justify-content: center;
     text-align: center;
-    background-color: #f9f9f9;
-    /* Change background color as per your preference */
+    /* background-color: #f0fbf9; */
+    align-content: center;
+    flex-wrap: wrap;
 }
 
 .about-container h2 {
     margin-bottom: 20px;
     font-size: 2em;
     color: #333;
+    position: relative;
+    z-index: 100;
 }
 
 .about-container p {
@@ -23,14 +28,20 @@
     padding: 10px 20px;
     font-size: 1em;
     color: #fff;
-    background-color: #007bff;
+    background-color: #179ec8;
     border: none;
-    border-radius: 4px;
+    border-radius: 20px;
     text-decoration: none;
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
 
 .resume-button:hover {
-    background-color: #0056b3;
+    background-color: #1f4363;
+}
+
+.technologies-grid {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
 }
